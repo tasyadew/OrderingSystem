@@ -403,6 +403,7 @@ class OrderingSystem {
                     "INFO",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.PLAIN_MESSAGE);
+                    pay.setTotalPaid(0.0);
 
                     for(int i=0; i<n; i++) ordersList.remove(0);
                     refreshOrdersTable();
